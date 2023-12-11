@@ -1,0 +1,56 @@
+  body {
+    background-image: linear-gradient(to bottom right, yellow, red);
+    height: 100dvh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+ .search-container {
+    position: absolute;
+    top: 32%;
+  }
+  
+  .search-background {
+     background-color: whitesmoke;
+     border-radius: 33px;
+  }
+  
+  ul {
+    list-style-type: none;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  ul li {
+    padding: 5px 5px;
+    width: 80%;
+    margin: 2px 2px;
+    border-radius: 33px;
+    padding-left: 40px
+  }
+  
+  ul li.highlighted {
+  background-color: orangered;
+  }
+  
+  input {
+    font-family: Arial, Helvetica, sans-serif;
+     border-radius: 33px;
+     background: whitesmoke;
+     border: 2px solid orange;
+     font-size: 18px;
+     height: 40px;
+     padding: 7px 8px;
+     color: black;
+     box-shadow: none;
+     max-width: 600px;
+     width: 400px;
+     padding-left: 40px;
+     :focus{
+      background-color: whitesmoke;
+      outline: none;
+      border: none;
+      box-shadow: none;
+    }
+  }
+  
